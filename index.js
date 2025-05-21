@@ -28,7 +28,7 @@ rl.question("Digite o nome do herói: ", function(nome) {
         nivel = "Radiante"
     }
 
-    console.log("O Herói de nome " + nome + " está no nível de " + nivel);
+    console.log(`\nO Herói de nome **${nome}** está no nível de **${nivel}**`);
     rl.close();
     });
 });
